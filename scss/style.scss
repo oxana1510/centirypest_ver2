@@ -1,0 +1,83 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+:root{
+	font-size: 10px;
+}
+@media screen and (max-width: 800px){
+:root{
+	font-size: 9px;
+}
+}
+body{
+	overflow-x: hidden;
+}
+.wrapper{
+	min-width: 320px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: $font1;	
+	letter-spacing: 0.05rem;
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+h1, 
+h2,
+h3,
+h4{
+	font-weight: normal;
+}
+p{
+	font-size: 1.7rem;
+	line-height: 2.7rem;
+}
+.container{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+}
+.bth-link{
+	display: block;
+	white-space: nowrap;
+	border-radius: 2.8rem;
+	text-transform: uppercase;
+	text-align: center;
+	border-width: 0.2rem;
+	border-style: solid;
+	font: 3.4rem $font-bold2;
+	padding: 0.9rem 5.5rem;
+	max-width: 41.4rem;
+	width: 100%;
+}
+.title{
+	font: 3.8rem/5rem $font2;
+	text-align: center;
+	span{
+		display: block;
+		font-family: $font-bold1;
+	}
+}
+@import "header";
+@import "block-top";
+@import "block-absolute";
+@import "welcome";
+@import "fouritem";
+@import "text-block";
+@import "testimonials";
+@import "block-text2";
+@import "footer";

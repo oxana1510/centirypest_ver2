@@ -1,0 +1,31 @@
+.welcome{
+	.container{
+		display: block;
+		padding: 0 16rem 0;
+	}
+	.title{
+		padding-bottom: 5rem;
+		span{
+			font-size: 4rem;
+		}
+	}
+	p{
+		color: #4f4f4f;	
+		padding-bottom: 3.5rem;
+	}
+	img{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+@media screen and (max-width: 1100px){
+.welcome .container{
+	padding: 0 10rem 0;
+}
+}
+@media screen and (max-width: 800px){
+.welcome .container{
+	padding: 0 3rem 0;
+}
+}
